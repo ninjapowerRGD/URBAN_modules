@@ -15,7 +15,7 @@ while True:
             return int(number) # результат переводив в int
 
         # тут умножаем первую цифру на результат вызова функции с оставшимися цифрами
-        first = int(number[0])
+        first = int(number[0]) # результат переводим в int
         return first * get_multiplied_digits(number[1:]) #рекурсия
 
 
